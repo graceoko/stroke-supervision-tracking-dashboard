@@ -45,7 +45,10 @@ Future iterations could integrate EHR data feeds, migrate the interface to a web
 - Ashley DeNoyer  
 - Grace Okoro  
 - Supriya Plumley  
-- Syed Sajjad Ali  
+- Syed Sajjad Ali
+
+![Project team presentation photo](images/project-team.jpeg)
+
 
 ## Acknowledgments
 Developed as part of HI 2451: Database Design & Big Data Analytics  
