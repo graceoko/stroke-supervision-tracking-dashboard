@@ -42,9 +42,10 @@ The system architecture integrates SQL Server as the backend, Microsoft Access a
 Future iterations could integrate EHR data feeds, migrate the interface to a web application, and support accreditation and regulatory reporting needs.
 
 ## Team
-- Ashley DeNoyer  
+ 
 - Grace Okoro  
-- Supriya Plumley  
+- Supriya Plumley
+- Ashley DeNoyer  
 - Syed Sajjad Ali
 
 ![Project team presentation photo](images/project-team.jpeg)
