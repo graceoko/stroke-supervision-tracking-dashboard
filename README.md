@@ -10,6 +10,7 @@ The system was modeled for a regional medical center specializing in neurology a
 - Microsoft Access – data entry interface and query development
 - Power BI – reporting and dashboard visualization
 - Role-based access control, encryption at rest (TDE), and secure data transfer (SSL/TLS)
+- Synthetic data generation (ChatGPT)
 
 ## System Design
 The database supports:
@@ -19,21 +20,28 @@ The database supports:
 - Guideline compliance checks
 - Data quality flagging for audit and reporting purposes
 
-The system architecture integrates SQL Server as the backend, Microsoft Access as the front-end interface for clinical staff, and Power BI for executive and compliance dashboards.
+SQL Server served as the centralized relational database. Microsoft Access was used for data entry and query execution, while Power BI provided interactive dashboards for compliance monitoring and trend analysis.
+
+## Data Source & Preparation
+The dataset used in this project was fictitious and generated using AI to simulate realistic stroke encounters while avoiding the use of real patient data or PHI. Data cleaning and preprocessing were performed to ensure relational integrity and compatibility across SQL Server, Access, and Power BI.
 
 ## My Role & Contributions
-- Contributed to database design and business rule definition
-- Assisted with ERD development and schema refinement
-- Supported query development for stroke encounters and guideline compliance
-- Participated in dashboard design and interpretation of trends
-- Co-authored final project documentation and presented findings
+- Generated a synthetic stroke dataset using ChatGPT
+- Cleaned and preprocessed data for SQL ingestion
+- Collaborated on SQL schema development and queries
+- Worked with a teammate to connect SQL Server to Power BI
+- Contributed to documentation and final project presentation
 
 ## Key Outcomes
-- Delivered a functional end-to-end stroke tracking system
-- Demonstrated integration of unfamiliar tools under time constraints
-- Identified system limitations and proposed scalable future enhancements
-- Strengthened collaboration, problem-solving, and technical communication skills
+- Designed a relational database supporting stroke encounter tracking
+- Built SQL queries for compliance and encounter reporting
+- Developed a Power BI dashboard for clinical and quality insights
+- Successfully integrated unfamiliar tools under time constraints
 
+## Limitations & Future Enhancements
+- Scalability limitations of Microsoft Access
+- No direct EHR integration
+- Future work could include automated EHR ingestion and web-based interfaces
 ## Limitations & Future Work
 - Scalability constraints of Microsoft Access for high-volume data
 - Lack of direct EHR integration
